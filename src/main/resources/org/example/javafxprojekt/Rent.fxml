@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="249.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafxprojekt.RentController">
+   <children>
+      <ChoiceBox fx:id="cbChooseClient" layoutX="14.0" layoutY="66.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="cbChooseBook" layoutX="207.0" layoutY="66.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="29.0" text="Wybierz klienta" />
+      <Label layoutX="207.0" layoutY="29.0" text="Wybierz książke" />
+      <CheckBox fx:id="cbRent" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="121.0" text="Wypożycz" />
+      <CheckBox fx:id="cbReturn" layoutX="14.0" layoutY="139.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="81.0" text="Zwróc" />
+   </children>
+</Pane>

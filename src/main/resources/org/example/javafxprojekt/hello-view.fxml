@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafxprojekt.HelloController">
+   <children>
+      <ListView fx:id="lvClientData" layoutX="14.0" layoutY="46.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lvBookData" layoutX="379.0" layoutY="46.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="bAddData" layoutX="14.0" layoutY="257.0" mnemonicParsing="false" onAction="#dialogAddClientData" text="Dodaj dane" />
+      <Button fx:id="bAddBook" layoutX="379.0" layoutY="257.0" mnemonicParsing="false" onAction="#dialogAddBookData" text="Dodaj ksiazke" />
+      <Button fx:id="bProgramInfo" layoutX="502.0" layoutY="361.0" mnemonicParsing="false" onAction="#dialogOnAction" text="O programie" />
+      <Button fx:id="bRent" layoutX="418.0" layoutY="361.0" mnemonicParsing="false" text="Wypozycz" onAction="#openRentDialog"/>
+      <Button fx:id="bPrintBookList" layoutX="200" layoutY="400" mnemonicParsing="false" onAction="#printBookList" text="Wyświetl listę książek"/>
+      <Label layoutX="14.0" layoutY="14.0" text="Dane klienta" />
+      <Label layoutX="379.0" layoutY="14.0" text="Lista ksiazek" />
+   </children>
+</Pane>
